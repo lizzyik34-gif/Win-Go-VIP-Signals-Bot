@@ -12,7 +12,7 @@ app.secret_key = os.environ.get("FLASK_SECRET_KEY", "super-secret-win-go-key-202
 
 # --- CONFIGURATION ---
 TELEGRAM_BOT_TOKEN = "9220984648:AAHdxoWfIKx_voCokgn2_NiSSzglcgRVCxo"
-AUTHORIZED_USER_IDS = ["8842031370", "7891601316"]
+AUTHORIZED_USER_IDS = ["8842031370", "7891601316", "8882241036"]
 
 def get_color_from_number(num):
     if num == 0:
